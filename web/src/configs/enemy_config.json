@@ -1,0 +1,88 @@
+{
+    "enemies": [
+        {
+            "id": "slime_green",
+            "name": "绿色史莱姆",
+            "type": "melee",
+            "hp": 30,
+            "atk": 5,
+            "speed": 80,
+            "exp": 3,
+            "dropTable": ["drop_exp", "drop_gold"],
+            "sprite": "enemy_slime_green",
+            "size": 0.8
+        },
+        {
+            "id": "slime_blue",
+            "name": "蓝色史莱姆",
+            "type": "melee",
+            "hp": 50,
+            "atk": 8,
+            "speed": 90,
+            "exp": 5,
+            "dropTable": ["drop_exp", "drop_gold"],
+            "sprite": "enemy_slime_blue",
+            "size": 0.9
+        },
+        {
+            "id": "skeleton",
+            "name": "骷髅战士",
+            "type": "melee",
+            "hp": 80,
+            "atk": 12,
+            "speed": 70,
+            "exp": 8,
+            "dropTable": ["drop_exp", "drop_gold", "drop_hp_potion"],
+            "sprite": "enemy_skeleton",
+            "size": 1.0
+        },
+        {
+            "id": "bat",
+            "name": "蝙蝠",
+            "type": "melee",
+            "hp": 20,
+            "atk": 3,
+            "speed": 130,
+            "exp": 2,
+            "dropTable": ["drop_exp"],
+            "sprite": "enemy_bat",
+            "size": 0.6
+        },
+        {
+            "id": "archer_goblin",
+            "name": "弓箭哥布林",
+            "type": "ranged",
+            "hp": 40,
+            "atk": 15,
+            "speed": 50,
+            "exp": 6,
+            "dropTable": ["drop_exp", "drop_gold"],
+            "sprite": "enemy_goblin_archer",
+            "size": 0.9
+        },
+        {
+            "id": "elite_wolf",
+            "name": "精英狼",
+            "type": "elite",
+            "hp": 200,
+            "atk": 20,
+            "speed": 110,
+            "exp": 25,
+            "dropTable": ["drop_exp", "drop_gold", "drop_hp_potion", "drop_magnet"],
+            "sprite": "enemy_wolf_elite",
+            "size": 1.3
+        },
+        {
+            "id": "boss_treant",
+            "name": "树人守卫",
+            "type": "boss",
+            "hp": 2000,
+            "atk": 30,
+            "speed": 40,
+            "exp": 100,
+            "dropTable": ["drop_exp", "drop_gold", "drop_hp_potion"],
+            "sprite": "enemy_boss_treant",
+            "size": 2.5
+        }
+    ]
+}

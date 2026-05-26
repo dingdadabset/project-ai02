@@ -1,0 +1,136 @@
+{
+    "skills": [
+        {
+            "id": "passive_atk_up",
+            "name": "力量强化",
+            "description": "攻击力+5",
+            "icon": "icon_atk",
+            "type": "passive",
+            "rarity": "common",
+            "weight": 60,
+            "maxLevel": 5,
+            "effects": [{ "attribute": "atk", "value": 5, "type": "flat" }]
+        },
+        {
+            "id": "passive_speed_up",
+            "name": "轻盈步伐",
+            "description": "移动速度+10%",
+            "icon": "icon_speed",
+            "type": "passive",
+            "rarity": "common",
+            "weight": 50,
+            "maxLevel": 5,
+            "effects": [{ "attribute": "moveSpeedBonus", "value": 0.1, "type": "flat" }]
+        },
+        {
+            "id": "passive_crit_rate",
+            "name": "致命直觉",
+            "description": "暴击率+5%",
+            "icon": "icon_crit",
+            "type": "passive",
+            "rarity": "rare",
+            "weight": 35,
+            "maxLevel": 5,
+            "effects": [{ "attribute": "critRate", "value": 0.05, "type": "flat" }]
+        },
+        {
+            "id": "passive_crit_dmg",
+            "name": "致命一击",
+            "description": "暴击伤害+20%",
+            "icon": "icon_crit_dmg",
+            "type": "passive",
+            "rarity": "rare",
+            "weight": 30,
+            "maxLevel": 5,
+            "effects": [{ "attribute": "critDamage", "value": 0.2, "type": "flat" }]
+        },
+        {
+            "id": "passive_max_hp",
+            "name": "生命之泉",
+            "description": "最大生命+20",
+            "icon": "icon_hp",
+            "type": "passive",
+            "rarity": "common",
+            "weight": 45,
+            "maxLevel": 5,
+            "effects": [{ "attribute": "maxHp", "value": 20, "type": "flat" }]
+        },
+        {
+            "id": "passive_def",
+            "name": "铁壁防御",
+            "description": "护甲+10",
+            "icon": "icon_def",
+            "type": "passive",
+            "rarity": "common",
+            "weight": 40,
+            "maxLevel": 5,
+            "effects": [{ "attribute": "def", "value": 10, "type": "flat" }]
+        },
+        {
+            "id": "passive_pickup_range",
+            "name": "磁力吸引",
+            "description": "拾取范围+20",
+            "icon": "icon_magnet",
+            "type": "passive",
+            "rarity": "common",
+            "weight": 40,
+            "maxLevel": 5,
+            "effects": [{ "attribute": "pickupRange", "value": 20, "type": "flat" }]
+        },
+        {
+            "id": "passive_atk_speed",
+            "name": "狂暴",
+            "description": "攻击速度+10%",
+            "icon": "icon_atk_speed",
+            "type": "passive",
+            "rarity": "rare",
+            "weight": 35,
+            "maxLevel": 5,
+            "effects": [{ "attribute": "atkSpeedBonus", "value": 0.1, "type": "flat" }]
+        },
+        {
+            "id": "weapon_rotating_blade",
+            "name": "旋转刀刃",
+            "description": "获得/升级旋转刀刃",
+            "icon": "icon_blade",
+            "type": "weapon_new",
+            "rarity": "rare",
+            "weight": 25,
+            "maxLevel": 1,
+            "effects": []
+        },
+        {
+            "id": "weapon_lightning_chain",
+            "name": "闪电链",
+            "description": "获得/升级闪电链",
+            "icon": "icon_lightning",
+            "type": "weapon_new",
+            "rarity": "rare",
+            "weight": 25,
+            "maxLevel": 1,
+            "effects": []
+        },
+        {
+            "id": "weapon_fireball",
+            "name": "火球术",
+            "description": "获得/升级火球术",
+            "icon": "icon_fireball",
+            "type": "weapon_new",
+            "rarity": "epic",
+            "weight": 15,
+            "maxLevel": 1,
+            "effects": []
+        },
+        {
+            "id": "weapon_frost_nova",
+            "name": "冰霜新星",
+            "description": "获得/升级冰霜新星",
+            "icon": "icon_frost",
+            "type": "weapon_new",
+            "rarity": "epic",
+            "weight": 15,
+            "maxLevel": 1,
+            "effects": []
+        }
+    ]
+}

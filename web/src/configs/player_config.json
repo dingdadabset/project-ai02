@@ -1,0 +1,46 @@
+{
+    "players": [
+        {
+            "id": "warrior",
+            "name": "战士",
+            "description": "均衡型角色，初始携带旋转刀刃",
+            "baseHp": 100,
+            "baseAtk": 10,
+            "baseSpeed": 200,
+            "baseCritRate": 0.05,
+            "baseCritDamage": 1.5,
+            "baseDef": 5,
+            "basePickupRange": 50,
+            "startWeapon": "rotating_blade",
+            "sprite": "player_warrior"
+        },
+        {
+            "id": "mage",
+            "name": "法师",
+            "description": "高攻击低生命，初始携带火球术",
+            "baseHp": 70,
+            "baseAtk": 15,
+            "baseSpeed": 180,
+            "baseCritRate": 0.1,
+            "baseCritDamage": 1.8,
+            "baseDef": 0,
+            "basePickupRange": 60,
+            "startWeapon": "fireball",
+            "sprite": "player_mage"
+        },
+        {
+            "id": "ranger",
+            "name": "游侠",
+            "description": "高速度高暴击，初始携带闪电链",
+            "baseHp": 80,
+            "baseAtk": 8,
+            "baseSpeed": 250,
+            "baseCritRate": 0.15,
+            "baseCritDamage": 2.0,
+            "baseDef": 2,
+            "basePickupRange": 70,
+            "startWeapon": "lightning_chain",
+            "sprite": "player_ranger"
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "dailyTasks": [
+        {
+            "id": "daily_kill_50",
+            "name": "杀戮新手",
+            "description": "击杀50个敌人",
+            "type": "kill_count",
+            "target": 50,
+            "rewardType": "gold",
+            "rewardAmount": 100
+        },
+        {
+            "id": "daily_kill_200",
+            "name": "杀戮老手",
+            "description": "击杀200个敌人",
+            "type": "kill_count",
+            "target": 200,
+            "rewardType": "gold",
+            "rewardAmount": 300
+        },
+        {
+            "id": "daily_clear_3",
+            "name": "通关三连",
+            "description": "完成3次关卡",
+            "type": "level_clear",
+            "target": 3,
+            "rewardType": "diamond",
+            "rewardAmount": 10
+        },
+        {
+            "id": "daily_play_time",
+            "name": "热爱游戏",
+            "description": "累计游戏时间10分钟",
+            "type": "play_time",
+            "target": 600,
+            "rewardType": "gold",
+            "rewardAmount": 200
+        },
+        {
+            "id": "daily_level_up",
+            "name": "成长之路",
+            "description": "在战斗中升级10次",
+            "type": "level_up",
+            "target": 10,
+            "rewardType": "gold",
+            "rewardAmount": 150
+        }
+    ],
+    "achievements": [
+        {
+            "id": "ach_kill_1000",
+            "name": "百人斩",
+            "description": "累计击杀1000个敌人",
+            "type": "total_kills",
+            "target": 1000,
+            "rewardType": "diamond",
+            "rewardAmount": 50
+        },
+        {
+            "id": "ach_kill_10000",
+            "name": "千人斩",
+            "description": "累计击杀10000个敌人",
+            "type": "total_kills",
+            "target": 10000,
+            "rewardType": "diamond",
+            "rewardAmount": 200
+        },
+        {
+            "id": "ach_clear_chapter1",
+            "name": "新手村出师",
+            "description": "通关第1章所有关卡",
+            "type": "chapter_clear",
+            "target": 1,
+            "rewardType": "diamond",
+            "rewardAmount": 100
+        },
+        {
+            "id": "ach_unlock_all_chars",
+            "name": "全员集结",
+            "description": "解锁所有角色",
+            "type": "unlock_all_characters",
+            "target": 3,
+            "rewardType": "diamond",
+            "rewardAmount": 500
+        },
+        {
+            "id": "ach_max_level_weapon",
+            "name": "武器大师",
+            "description": "在一局中将任意武器升至满级",
+            "type": "max_level_weapon",
+            "target": 1,
+            "rewardType": "diamond",
+            "rewardAmount": 100
+        },
+        {
+            "id": "ach_no_damage_clear",
+            "name": "无懈可击",
+            "description": "无伤通关任意关卡",
+            "type": "no_damage_clear",
+            "target": 1,
+            "rewardType": "diamond",
+            "rewardAmount": 300
+        }
+    ]
+}

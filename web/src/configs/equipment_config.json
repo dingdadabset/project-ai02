@@ -1,0 +1,119 @@
+{
+    "equipments": [
+        {
+            "id": "sword_iron",
+            "name": "铁剑",
+            "slot": "weapon",
+            "quality": "common",
+            "icon": "equip_sword_iron",
+            "effects": [{ "attribute": "atk", "value": 5, "type": "flat" }],
+            "price": 100
+        },
+        {
+            "id": "sword_steel",
+            "name": "钢剑",
+            "slot": "weapon",
+            "quality": "rare",
+            "icon": "equip_sword_steel",
+            "effects": [
+                { "attribute": "atk", "value": 12, "type": "flat" },
+                { "attribute": "critRate", "value": 0.03, "type": "flat" }
+            ],
+            "price": 500
+        },
+        {
+            "id": "sword_dragon",
+            "name": "龙鳞之刃",
+            "slot": "weapon",
+            "quality": "epic",
+            "icon": "equip_sword_dragon",
+            "effects": [
+                { "attribute": "atk", "value": 25, "type": "flat" },
+                { "attribute": "critRate", "value": 0.08, "type": "flat" },
+                { "attribute": "critDamage", "value": 0.2, "type": "flat" }
+            ],
+            "price": 2000
+        },
+        {
+            "id": "sword_legendary",
+            "name": "诸神黄昏",
+            "slot": "weapon",
+            "quality": "legendary",
+            "icon": "equip_sword_legendary",
+            "effects": [
+                { "attribute": "atk", "value": 50, "type": "flat" },
+                { "attribute": "critRate", "value": 0.15, "type": "flat" },
+                { "attribute": "critDamage", "value": 0.5, "type": "flat" },
+                { "attribute": "atkSpeedBonus", "value": 0.2, "type": "flat" }
+            ],
+            "price": 8000
+        },
+        {
+            "id": "armor_leather",
+            "name": "皮甲",
+            "slot": "armor",
+            "quality": "common",
+            "icon": "equip_armor_leather",
+            "effects": [
+                { "attribute": "maxHp", "value": 20, "type": "flat" },
+                { "attribute": "def", "value": 3, "type": "flat" }
+            ],
+            "price": 100
+        },
+        {
+            "id": "armor_chain",
+            "name": "锁子甲",
+            "slot": "armor",
+            "quality": "rare",
+            "icon": "equip_armor_chain",
+            "effects": [
+                { "attribute": "maxHp", "value": 50, "type": "flat" },
+                { "attribute": "def", "value": 10, "type": "flat" }
+            ],
+            "price": 500
+        },
+        {
+            "id": "armor_holy",
+            "name": "圣光铠甲",
+            "slot": "armor",
+            "quality": "epic",
+            "icon": "equip_armor_holy",
+            "effects": [
+                { "attribute": "maxHp", "value": 100, "type": "flat" },
+                { "attribute": "def", "value": 25, "type": "flat" }
+            ],
+            "price": 2000
+        },
+        {
+            "id": "ring_speed",
+            "name": "疾风指环",
+            "slot": "accessory",
+            "quality": "common",
+            "icon": "equip_ring_speed",
+            "effects": [{ "attribute": "moveSpeedBonus", "value": 0.05, "type": "flat" }],
+            "price": 150
+        },
+        {
+            "id": "ring_magnet",
+            "name": "磁力指环",
+            "slot": "accessory",
+            "quality": "rare",
+            "icon": "equip_ring_magnet",
+            "effects": [{ "attribute": "pickupRange", "value": 30, "type": "flat" }],
+            "price": 600
+        },
+        {
+            "id": "ring_phoenix",
+            "name": "凤凰之心",
+            "slot": "accessory",
+            "quality": "legendary",
+            "icon": "equip_ring_phoenix",
+            "effects": [
+                { "attribute": "maxHp", "value": 50, "type": "flat" },
+                { "attribute": "atk", "value": 10, "type": "flat" },
+                { "attribute": "critDamage", "value": 0.3, "type": "flat" }
+            ],
+            "price": 5000
+        }
+    ]
+}
