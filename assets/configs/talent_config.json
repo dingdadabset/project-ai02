@@ -1,0 +1,84 @@
+{
+    "talents": [
+        {
+            "id": "talent_atk",
+            "name": "力量训练",
+            "description": "永久增加攻击力",
+            "category": "attack",
+            "icon": "talent_atk",
+            "maxLevel": 10,
+            "costFormula": "100 * level",
+            "effects": [{ "attribute": "atk", "valuePerLevel": 2, "type": "flat" }]
+        },
+        {
+            "id": "talent_crit_rate",
+            "name": "猎手直觉",
+            "description": "永久增加暴击率",
+            "category": "attack",
+            "icon": "talent_crit",
+            "maxLevel": 10,
+            "costFormula": "150 * level",
+            "effects": [{ "attribute": "critRate", "valuePerLevel": 0.01, "type": "flat" }]
+        },
+        {
+            "id": "talent_crit_dmg",
+            "name": "致命打击",
+            "description": "永久增加暴击伤害",
+            "category": "attack",
+            "icon": "talent_crit_dmg",
+            "maxLevel": 10,
+            "costFormula": "150 * level",
+            "effects": [{ "attribute": "critDamage", "valuePerLevel": 0.05, "type": "flat" }]
+        },
+        {
+            "id": "talent_max_hp",
+            "name": "强健体魄",
+            "description": "永久增加最大生命",
+            "category": "defense",
+            "icon": "talent_hp",
+            "maxLevel": 10,
+            "costFormula": "100 * level",
+            "effects": [{ "attribute": "maxHp", "valuePerLevel": 5, "type": "flat" }]
+        },
+        {
+            "id": "talent_def",
+            "name": "钢铁皮肤",
+            "description": "永久增加护甲",
+            "category": "defense",
+            "icon": "talent_def",
+            "maxLevel": 10,
+            "costFormula": "120 * level",
+            "effects": [{ "attribute": "def", "valuePerLevel": 2, "type": "flat" }]
+        },
+        {
+            "id": "talent_speed",
+            "name": "迅捷步伐",
+            "description": "永久增加移动速度",
+            "category": "support",
+            "icon": "talent_speed",
+            "maxLevel": 10,
+            "costFormula": "120 * level",
+            "effects": [{ "attribute": "moveSpeedBonus", "valuePerLevel": 0.02, "type": "flat" }]
+        },
+        {
+            "id": "talent_pickup",
+            "name": "贪婪",
+            "description": "永久增加拾取范围",
+            "category": "support",
+            "icon": "talent_pickup",
+            "maxLevel": 5,
+            "costFormula": "200 * level",
+            "effects": [{ "attribute": "pickupRange", "valuePerLevel": 5, "type": "flat" }]
+        },
+        {
+            "id": "talent_gold_bonus",
+            "name": "财富",
+            "description": "金币掉落+10%/级",
+            "category": "support",
+            "icon": "talent_gold",
+            "maxLevel": 5,
+            "costFormula": "300 * level",
+            "effects": [{ "attribute": "goldBonus", "valuePerLevel": 0.1, "type": "flat" }]
+        }
+    ]
+}
